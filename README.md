@@ -34,25 +34,21 @@ Build your files:
 $ middleman build
 ````
 
-# Everything else:
+# Everything else
 
-## Tools
+The general toolset:
 1. HAML
 2. CoffeeScript
 3. RSpec & Capybara
-  * Feature specs
-  * shared examples (it_behaves_like 'somethign')
 4. I18n
-  * en.yml
-5. Bootstrap 4
-  * Currently v4.0.0 alpha 6
-6. FontAwesome4
+5. Bootstrap 4 (Currently v4.0.0 alpha 6)
+6. FontAwesome
 
 If you stumbled here because you were looking for help in getting Middleman setup with RSpec, this should be a useful app for you. Follow the docs and you should be up and running in no time. For the uninitiated, the '$' symbol is just a visual cue that you should type in the following code in terminal. Don't actually copy in the '$' sign.
 
 
 # Getting Started
-This'll walk you through the though process behind how this setup is handy. 
+This'll walk you through the basic setup 'for your info.'
 
 ## Install middleman
 If you do not have middleman installed locally, run the command below.
@@ -70,8 +66,10 @@ $ bundle exec bundle
 
 
 ## Working in middleman
-All files should go into the source directories.
-
+All files should go into the source directories. Example:
+1. HAML files: my_app/source/index.html.haml
+2. JavaScript: my_app/source/javascripts/application.js.coffee
+3. Images: my_app/source/images/image.jpg
 
 ## Starting middleman
 To see live updates in your browser, at the root of the project in terminal run the command below and follow the displayed instructions
@@ -81,7 +79,7 @@ $ middleman server
 ````
 
 ## To build the html files, run:
-
+They'll output to a build folder, e.g.: my_app/build/index.html
 ````
 $ middleman build
 ````
@@ -270,7 +268,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 1. Create a 'spec' folder in your app's root folder: my_app/spec/
 2. Add spec_helper.rb; so within my_app/spec/spec_helper.rb
 
-Within my_app/spec/spec_helper:
+Within my_app/spec/spec_helper.rb
 
 Require these:
 ````ruby
