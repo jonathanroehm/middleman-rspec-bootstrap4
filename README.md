@@ -1,10 +1,12 @@
 # middleman-rspec-bootstrap v1.0
-A basic "starting point" middleman app that uses my favorite tools and has example files ready to use.
+A basic "starting point" middleman app that is tested through RSpec with some additional handy features to help you get up and running quickly.
 
-Inspiration and starter points for RSpec is from [simonrice's](https://github.com/simonrice) [middleman-rspec](https://github.com/simonrice/middleman-rspec). Lots of appreciation.
+I use this app as a starting point for new projects since it has a lot of convenient things already in place... CoffeeScript namespacing, example feature specs, RSpec and Capybara configurations, etc.
+
+Note: Inspiration and starting points for getting my own initial Middleman apps up and running is thanks to [simonrice's](https://github.com/simonrice) [middleman-rspec](https://github.com/simonrice/middleman-rspec). Tons of appreciation to simonrice.
 
 ## TLDR; 
-A walkthrough is down below, but get up and running quickly by following these commands... This assumes you have [ruby](https://www.ruby-lang.org/en/documentation/installation/), [homebrew](https://brew.sh) and [Google Chrome](https://www.google.com/chrome/) setup and in place on your machine. If you don't have those, get them in place first.
+A detailed walkthrough is down below this TLDR... but if you're out of time and just need to get up and running quickly... go through this process. By the way, this assumes you have [ruby](https://www.ruby-lang.org/en/documentation/installation/), [homebrew](https://brew.sh) and [Google Chrome](https://www.google.com/chrome/) setup and in place on your machine. If you don't have those, get them in place first.
 
 Clone the repo (if copying and pasting the commands below, don't copy the $ sign into your terminal):
 ````
