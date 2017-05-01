@@ -1,5 +1,5 @@
 # middleman-rspec-bootstrap v1.0
-### A Middleman app with RSpec with Bootstrap 4 assets pre-positioned
+### A convenient starter app for Middleman that comes preloaded with RSpec, Bootstrap4 and a host of other goodies.
 A basic "starting point" middleman app that is tested through RSpec with some additional handy features to help you get up and running quickly.
 
 I use this app as a starting point for new projects since it has a lot of convenient things already in place... CoffeeScript namespacing, example feature specs, RSpec and Capybara configurations, etc.
