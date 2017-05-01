@@ -88,7 +88,9 @@ $ middleman build
 
 All of the assets will be created in a build folder.
 
-## Setting up a convenient in my_app/config.rb file
+## Setting up a convenient config.rb in my_app/config.rb file
+See individual walkthrough and then the full config.rb file below:
+
 Getting I18n and relative files and links setup:
 
 ````ruby
@@ -394,7 +396,7 @@ my_app/spec/features/index_spec.rb
 ````
 
 To get a barebones feature spec up and running, in my_app/spec/features/index_spec.rb
-````
+````ruby
 require 'spec_helper'
 
 describe 'the index page', type: :feature, js: true do
@@ -423,6 +425,16 @@ $ bundle exec rspec spec/features/index_spec.rb:32
 And, of course, if you want to run your entire test suite:
 ````
 $ bundle exec rspec
+````
+
+This is what a simple rspec output looks like:
+````
+== Locales: en (Default en)
+== LiveReload accepting connections from ws://10.0.0.182:35729
+.
+
+Finished in 7.68 seconds (files took 5.03 seconds to load)
+1 example, 0 failures
 ````
 
 
