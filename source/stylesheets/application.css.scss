@@ -1,9 +1,6 @@
 // Bootstrap
 @import 'bootstrap'; // imported from gem (see Gemfile)
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto:300'); // Similar to the Youtube font.
-
 // Icons - https://github.com/FortAwesome/font-awesome-sass#a-ruby-on-rails
 @import 'font-awesome-sprockets'; // Required for font-awesome-sass gem
 @import 'font-awesome'; // imported from gem (see Gemfile)
