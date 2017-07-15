@@ -2,6 +2,10 @@
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 ignore 'README.md'
 
+
+# Quiet HAML errors for HAML 5
+Haml::TempleEngine.disable_option_validator!
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

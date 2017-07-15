@@ -1,7 +1,10 @@
-#= require jquery
+
+#= require jquery2
 #= require tether
 #= require bootstrap
-#= require_self
-#= require_directory ./
 
-window.App = {}
+# App
+#= require_self
+#= require_tree ./
+
+  
