@@ -12,8 +12,8 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'font-awesome-sass', '~> 4.7.0'
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-jquery'
-  gem 'rails-assets-tether', '>= 1.3.3'
+  gem 'rails-assets-jquery2' # to be addressed: jQuery 3 doesn't appear to work with middleman
+  gem 'rails-assets-tether', '>= 1.3.3' # required for Bootstrap4
 end
 
 group :test do
