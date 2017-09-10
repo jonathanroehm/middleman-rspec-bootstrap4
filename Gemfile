@@ -2,18 +2,17 @@
 # the following line to use 'http://'
 source 'https://rubygems.org'
 
-# Middleman Gems
-gem 'middleman', '>= 4.0.0'
-gem 'middleman-livereload', '~> 3.4.3'
-gem 'middleman-compass', '>= 4.0.0'
-gem 'middleman-sprockets'
-
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap', '~> 4.0.0.beta'
 gem 'font-awesome-sass', '~> 4.7.0'
 
+# Middleman Gems
+gem 'middleman', '>= 4.0.0'
+gem 'middleman-compass', '>= 4.0.0'
+gem 'middleman-livereload', '~> 3.4.3'
+gem 'middleman-sprockets'
+
 source 'https://rails-assets.org' do
-  gem 'rails-assets-jquery2' # to be addressed: jQuery 3 doesn't appear to work with middleman
-  gem 'rails-assets-tether', '>= 1.3.3' # required for Bootstrap4
+  gem 'rails-assets-jquery'
 end
 
 group :test do

@@ -44,7 +44,7 @@ The general toolset:
 2. CoffeeScript
 3. RSpec & Capybara
 4. I18n
-5. Bootstrap 4 (Currently v4.0.0 alpha 6)
+5. Bootstrap 4 (Currently v4.0.0 beta)
 6. FontAwesome
 
 If you stumbled here because you were looking for help in getting Middleman setup with RSpec, this should be a useful app for you. Follow the docs and you should be up and running in no time. For the uninitiated, the '$' symbol is just a visual cue that you should type in the following code in terminal. Don't actually copy in the '$' sign.

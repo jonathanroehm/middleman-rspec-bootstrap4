@@ -1,4 +1,56 @@
-.container
+%nav.navbar.navbar-expand-lg.navbar-sticky-top.navbar-dark.bg-dark
+  %a.navbar-brand{:href => "#"} Navbar
+  %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
+    %span.navbar-toggler-icon
+  #navbarSupportedContent.collapse.navbar-collapse
+    %ul.navbar-nav.mr-auto
+      %li.nav-item.active
+        %a.nav-link{:href => "#"}
+          Home
+          %span.sr-only (current)
+      %li.nav-item
+        %a.nav-link{:href => "#"} Link
+      %li.nav-item
+        %a.nav-link.disabled{:href => "#"} Disabled
+      %li.nav-item.dropdown
+        %a#navbarDropdownMenuLink.nav-link.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "http://example.com"}
+          Dropdown link
+        .dropdown-menu{"aria-labelledby" => "navbarDropdownMenuLink"}
+          %a.dropdown-item{:href => "#"} Action
+          %a.dropdown-item{:href => "#"} Another action
+          %a.dropdown-item{:href => "#"} Something else here
+    %form.form-inline.my-2.my-lg-0
+      %input.form-control.mr-sm-2{"aria-label" => "Search", :placeholder => "Search", :type => "text"}/
+      %button.btn.btn-primary.my-2.my-sm-0{:type => "submit"} Search
+
+.jumbotron.jumbotron-fluid
+  .container
+    %h1.display-3= t 'index.headings.page'
+    %p.lead An example jumbotron
+
+.container-fluid
   .row
-    .col
-      %h1= t 'index.headings.page'
+    / Middle Column (second on desktop, ordered first on mobile)
+    .col-12.col-lg-7.order-lg-2
+      %h2= lorem.sentence.capitalize
+      = lorem.paragraphs 2
+
+    / Left Column (first on desktop, ordered second on mobile)
+    .col-12.col-lg-2.order-lg-1
+      %ul.nav.flex-column
+        %li.nav-item
+          %a.nav-link.active{:href => "#"} Active
+        %li.nav-item
+          %a.nav-link{:href => "#"} Link
+        %li.nav-item
+          %a.nav-link{:href => "#"} Link
+        %li.nav-item
+          %a.nav-link.disabled{:href => "#"} Disabled
+    
+    / Right Column
+    .col-12.col-lg-3.order-lg-3
+      .card.text-white.bg-dark.mb-3{:style => "max-width: 20rem;"}
+        .card-header= lorem.words 5
+        .card-body
+          %h4.card-title Dark card title
+          %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
