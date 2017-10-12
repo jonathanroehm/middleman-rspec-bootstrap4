@@ -1,4 +1,5 @@
-%nav.navbar.navbar-expand-lg.navbar-sticky-top.navbar-dark.bg-dark
+
+%nav.navbar.navbar-expand-lg.navbar-sticky-top.navbar-dark.bg-dark.mt-5
   %a.navbar-brand{:href => "#"} Navbar
   %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
@@ -24,20 +25,26 @@
       %button.btn.btn-primary.my-2.my-sm-0{:type => "submit"} Search
 
 .jumbotron.jumbotron-fluid
-  .container
-    %h1.display-3= t 'index.headings.page'
-    %p.lead An example jumbotron
+  .container.text-center
+    .row
+      .col.text-center
+        %h1.display-3= t 'index.headings.page'
+        %p.lead An example jumbotron
+        %p
+          = link_to 'javascript:;', class: 'btn btn-lg btn-primary' do
+            Call to Action
 
 .container-fluid
   .row
     / Middle Column (second on desktop, ordered first on mobile)
-    .col-12.col-lg-7.order-lg-2
+    .col-12.col-lg-7.order-lg-2.mb-5
       %h2= lorem.sentence.capitalize
-      = lorem.paragraphs 2
+      %p.mb-3= lorem.paragraphs 2
+      %p= image_tag 'images/beach.jpg', class: 'img-fluid w-100'
 
     / Left Column (first on desktop, ordered second on mobile)
     .col-12.col-lg-2.order-lg-1
-      %ul.nav.flex-column
+      %ul.nav.flex-column.align-self-start
         %li.nav-item
           %a.nav-link.active{:href => "#"} Active
         %li.nav-item
@@ -54,3 +61,33 @@
         .card-body
           %h4.card-title Dark card title
           %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+
+
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light.align-self-end
+  %a.navbar-brand{:href => "#"} Navbar
+  %button.navbar-toggler{"aria-controls" => "navbarFooterContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarFooterContent", "data-toggle" => "collapse", :type => "button"}
+    %span.navbar-toggler-icon
+  #navbarFooterContent.collapse.navbar-collapse
+    %ul.navbar-nav.mr-auto
+      %li.nav-item.active
+        %a.nav-link{:href => "#"}
+          Home
+          %span.sr-only (current)
+      %li.nav-item
+        %a.nav-link{:href => "#"} Link
+      %li.nav-item
+        %a.nav-link.disabled{:href => "#"} Disabled
+    %form.form-inline.my-2.my-lg-0
+      %input.form-control.mr-sm-2{"aria-label" => "Search", :placeholder => "Search", :type => "text"}/
+      %button.btn.btn-outline-success.my-2.my-sm-0{:type => "submit"} Search
+
+.container-fluid.bg-dark.text-light
+  .container
+    .row
+      .col.p-3
+        %p.text-center
+          123 Main st.
+          %br/
+          Suite 205
+          %br/
+          Annapolis, MD 12345
