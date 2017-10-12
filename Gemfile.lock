@@ -55,8 +55,6 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
-    font-awesome-sass (4.7.0)
-      sass (>= 3.2)
     haml (5.0.0)
       temple (>= 0.8.0)
       tilt
@@ -180,7 +178,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.beta)
   capybara
-  font-awesome-sass (~> 4.7.0)
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
   middleman-livereload (~> 3.4.3)
