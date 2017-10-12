@@ -5,3 +5,5 @@
 // App
 //= require_self
 //= require_directory ./
+
+window.App = {}
