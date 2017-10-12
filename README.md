@@ -15,9 +15,9 @@ Install Middleman
 $ gem install middleman
 
 From within your root project folder, eg: /Users/jonathanroehm/projects/
-$ git clone https://github.com/jonathanroehm/middleman-rspec-bootstrap.git
+$ git clone https://github.com/jonathanroehm/middleman-rspec-bootstrap4.git
 
-From within your app, e.g: /Users/jonathanroehm/projects/middleman-rspec-bootstrap/ bundle the gems
+From within your app folder on terminal, e.g: /Users/jonathanroehm/projects/middleman-rspec-bootstrap4/ bundle the gems
 $ bundle exec bundle
 
 Install ChromeDriver
@@ -63,7 +63,7 @@ $ gem install middleman
 After you clone this repo locally, be sure to run **bundle install**.
 Basic setup once in your normal projects root folder, clone the app:
 ````
-$ git clone https://github.com/jonathanroehm/middleman-rspec-bootstrap.git
+$ git clone https://github.com/jonathanroehm/middleman-rspec-bootstrap4.git
 $ bundle exec bundle
 ````
 
