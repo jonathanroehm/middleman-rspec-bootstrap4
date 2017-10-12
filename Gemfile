@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap', '~> 4.0.0.beta'
-gem 'font-awesome-sass', '~> 4.7.0'
 
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
