@@ -217,7 +217,6 @@ Secondary tools: Bootstrap, Font Awesome, JQuery, HAML
 ````ruby
 gem 'haml'
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'font-awesome-sass', '~> 4.7.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
@@ -249,7 +248,6 @@ gem 'middleman-sprockets'
 
 gem 'haml'
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'font-awesome-sass', '~> 4.7.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
