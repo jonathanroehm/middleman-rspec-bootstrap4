@@ -227,6 +227,7 @@ Getting the testing gems in place:
 ````ruby
 group :test do
   gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
   gem 'rspec'
   gem 'capybara'
 end
@@ -255,6 +256,7 @@ end
 
 group :test do
   gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
   gem 'rspec'
   gem 'capybara'
 end
