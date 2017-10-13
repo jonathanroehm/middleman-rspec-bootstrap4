@@ -1,4 +1,6 @@
-# middleman-rspec-bootstrap v1.0
+# Middleman Rspec Bootstrap4 
+[![Build Status](https://travis-ci.org/jonathanroehm/middleman-rspec-bootstrap4.svg?branch=master)](https://travis-ci.org/jonathanroehm/middleman-rspec-bootstrap4)
+
 ### A convenient starter app for Middleman 4 that comes preloaded with RSpec, Bootstrap4 and a host of other goodies
 A basic "starting point" middleman app that is tested through RSpec with some additional handy features to help you get up and running quickly.
 
