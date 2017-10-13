@@ -1,7 +1,7 @@
 # Middleman Rspec Bootstrap4 
 [![Build Status](https://travis-ci.org/jonathanroehm/middleman-rspec-bootstrap4.svg?branch=master)](https://travis-ci.org/jonathanroehm/middleman-rspec-bootstrap4)
 
-### A convenient starter app for Middleman 4 that comes preloaded with RSpec, Bootstrap4 and a host of other goodies
+### A convenient starter app for Middleman 4 that comes preloaded with RSpec, Bootstrap4 Beta and a host of other goodies
 A basic "starting point" middleman app that is tested through RSpec with some additional handy features to help you get up and running quickly.
 
 I use this app as a starting point for new projects since it has a lot of convenient things already in place... CoffeeScript namespacing, example feature specs, RSpec and Capybara configurations, etc.
@@ -216,7 +216,7 @@ gem 'middleman-sprockets'
 Secondary tools: Bootstrap, Font Awesome, JQuery, HAML
 ````ruby
 gem 'haml'
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap', '~> 4.0.0.beta'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
@@ -246,7 +246,7 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-sprockets'
 
 gem 'haml'
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap', '~> 4.0.0.beta'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
