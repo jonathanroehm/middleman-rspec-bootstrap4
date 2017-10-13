@@ -1,6 +1,3 @@
 // Bootstrap
 @import 'bootstrap'; // imported from gem (see Gemfile)
-
-// Icons - https://github.com/FortAwesome/font-awesome-sass#a-ruby-on-rails
-@import 'font-awesome-sprockets'; // Required for font-awesome-sass gem
-@import 'font-awesome'; // imported from gem (see Gemfile)
+@import 'vendor/font-awesome/font-awesome';
