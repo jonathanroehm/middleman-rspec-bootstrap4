@@ -436,9 +436,3 @@ This is what a simple rspec output looks like:
 Finished in 7.68 seconds (files took 5.03 seconds to load)
 1 example, 0 failures
 ````
-
-
-## My wishlist & things I would like to figure out / add:
-1. Have RSpec run against just built files to make sure that the built files are working exactly as expected. I found this [forum post](https://forum.middlemanapp.com/t/testing-in-middleman/1972/2) enlightening.
-2. Within feature specs, have the iPhone driver actually open up the browser so I can watch the action realtime (I am investigating some gems that may make this whole thing easier for user agent / device testing).
-3. Slightly more fleshed out examples and an actual basic starter app that has a little bit of everything mixed in for useful starting points for new apps or learning tools for folks like me who stumbled through this process until it finally worked :)
